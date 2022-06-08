@@ -7,7 +7,7 @@ def variance_of_laplacian(image):
 	return cv2.Laplacian(image, cv2.CV_64F).var()
 # construct the argument parse and parse the arguments
 
-cap = cv2.VideoCapture('SampleVideo4.mp4')
+cap = cv2.VideoCapture('SamplVideo4.mp4')
    
 # Check if camera opened successfully
 if (cap.isOpened()== False): 
